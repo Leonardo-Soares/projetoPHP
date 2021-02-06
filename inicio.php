@@ -209,8 +209,7 @@ $produtos =
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
-          <?php
-          foreach ($produtos as $produto) : ?>
+          <?php foreach ($produtos as $produto) : ?>
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="<?= $produto["poster"] ?>" class="img-fluid" alt="" />
