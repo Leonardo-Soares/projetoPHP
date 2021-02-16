@@ -7,6 +7,13 @@
   <title>Aulas de PHP</title>
 </head>
 
+<style>
+h2 {
+  color: red;
+  border-top: black 1px dashed;
+}
+</style>
+
 <body>
   <div style="width: 97%; padding: 10px 0px 30px 30px;  border: solid 2px black; ">
     <h1 style="text-align:center;">Secção para aprendizado</h1>
@@ -31,7 +38,17 @@
     ?>
 
     <?php
+    echo "<hr> ";
+    echo "<h1>Aula 07 - Variáveis Dinâmicas</h1>";
+    echo "<h3>Valor da variável coca: ", $coca = "refrigerante", "</h3>";
+    echo "<h3>Valor da variável dinâmica: ", $$coca = "Coca-Café", "</h3>";
+    echo "<h3>Nome dado a variável dinâmica: ", $refrigerante, "</h3>";
 
+    echo "
+    <h2>
+    Obs: O nome da variável ($$)coca vai ser o valor da variável ($)coca  <br>
+    E a variável ($)refrigerante vai ser coca-café
+    </h2>"
     ?>
   </div>
 
