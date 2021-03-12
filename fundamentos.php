@@ -73,6 +73,49 @@ h2 {
     echo "Me chamo $nome";
     echo "<h2>Obs: Aspas simples não \"interpletam\" valores de uma variável, já as aspas duplas intepletam!</h2>";
     ?>
+
+    <?php
+    echo "<hr> ";
+    echo "<h1>Aula 10 - Escopo de Variavéis</h1>";
+
+    echo "<h3>Escopo Global</h3>";
+    $funcionario = "Leonardo Soares";
+
+    function funcionarioMes(){
+      echo 'Definindo a variável para global: global $funcionario';
+      echo '<br><br>';
+      global $funcionario;
+      echo $funcionario;
+    }
+    funcionarioMes();
+
+    echo "<h3>Escopo Local</h3>";
+
+    function cidadeFuncionario(){
+      echo 'Definindo a variável para global: global $cidade';
+      global $cidade;
+      $cidade = "Belém";
+      echo "";
+      echo "<br><br>";
+    }
+    cidadeFuncionario();
+    echo $cidade;
+    
+    echo "<h2>Obs: Para que o escopo local utilizar as variavéis do esocpo 
+    global foi necessario declarar a variavel como global, faz-se o mesmo com a 
+    o escopo global querer utilizar  </h2>";
+
+    $x1 = 10;
+    $x2 = 20;
+    $x3 = 30;
+
+    function soma(){
+      echo "A soma é igual a ", $GLOBALS ['x1'] + $GLOBALS ['x2'] + $GLOBALS ['x3'] ;
+    }
+
+    soma()
+    
+    ?>
   </div>
 
 </body>
