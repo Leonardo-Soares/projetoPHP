@@ -14,9 +14,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -210,20 +208,19 @@ $produtos =
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
           <?php foreach ($produtos as $produto) : ?>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="<?= $produto["poster"] ?>" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4><?= $produto["nome"] ?></h4>
-                <p><?= $produto["preco"] ?></p>
-                <div class="portfolio-links">
-                  <a href="<?= $produto["poster"] ?>" data-gall="portfolioGallery" class="venobox" title="App 1"><i
-                      class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="<?= $produto["poster"] ?>" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4><?= $produto["nome"] ?></h4>
+                  <p><?= $produto["preco"] ?></p>
+                  <div class="portfolio-links">
+                    <a href="<?= $produto["poster"] ?>" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
           <?php endforeach ?>
           <?php ?>
         </div>
@@ -240,28 +237,23 @@ $produtos =
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in"
-              data-aos-delay="100" />
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100" />
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" data-aos="zoom-in"
-              data-aos-delay="200" />
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200" />
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in"
-              data-aos-delay="300" />
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300" />
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in"
-              data-aos-delay="400" />
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400" />
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in"
-              data-aos-delay="500" />
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500" />
           </div>
         </div>
       </div>
@@ -315,8 +307,7 @@ $produtos =
     <section id="counts" class="counts">
       <div class="container">
         <div class="row">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start"
-            data-aos="fade-right" data-aos-delay="150">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
             <img src="assets/img/counts-img.svg" alt="" class="img-fluid" />
           </div>
 
@@ -439,8 +430,7 @@ $produtos =
       <div class="container">
         <div class="row">
           <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card" style="background-image: url('assets/img/more-services-1.jpg')" data-aos="fade-up"
-              data-aos-delay="100">
+            <div class="card" style="background-image: url('assets/img/more-services-1.jpg')" data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
                 <h5 class="card-title"><a href="">Lobira Duno</a></h5>
                 <p class="card-text">
@@ -454,8 +444,7 @@ $produtos =
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="card" style="background-image: url('assets/img/more-services-2.jpg')" data-aos="fade-up"
-              data-aos-delay="200">
+            <div class="card" style="background-image: url('assets/img/more-services-2.jpg')" data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
                 <h5 class="card-title"><a href="">Limere Radses</a></h5>
                 <p class="card-text">
@@ -469,8 +458,7 @@ $produtos =
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style="background-image: url('assets/img/more-services-3.jpg')" data-aos="fade-up"
-              data-aos-delay="100">
+            <div class="card" style="background-image: url('assets/img/more-services-3.jpg')" data-aos="fade-up" data-aos-delay="100">
               <div class="card-body">
                 <h5 class="card-title"><a href="">Nive Lodo</a></h5>
                 <p class="card-text">
@@ -484,8 +472,7 @@ $produtos =
             </div>
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style="background-image: url('assets/img/more-services-4.jpg')" data-aos="fade-up"
-              data-aos-delay="200">
+            <div class="card" style="background-image: url('assets/img/more-services-4.jpg')" data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
                 <h5 class="card-title"><a href="">Pale Treda</a></h5>
                 <p class="card-text">
@@ -979,23 +966,19 @@ $produtos =
           <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                  data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required"
-                  data-msg="Please write something for us" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">

@@ -50,6 +50,29 @@ h2 {
     E a variável ($)refrigerante vai ser coca-café
     </h2>"
     ?>
+
+    <?php
+    echo "<hr> ";
+    echo "<h1>Aula 08 - Tipo de Dados</h1>";
+    echo "<h3>Valor da variável coca: ", $coca = "refrigerante", "</h3>";
+    echo "<h3>Valor da variável dinâmica: ", $$coca = "Coca-Café", "</h3>";
+    echo "<h3>Nome dado a variável dinâmica: ", $refrigerante, "</h3>";
+    ?>
+
+    <?php
+    echo "<hr>";
+    echo "<h1>Aula 09 - Aspas simples, Aspas duplas e Concatenação</h1>";
+    $nome = "Leonardo";
+    echo '<h3>Aspas Simples:</h3>';
+    echo 'Me chamo $nome';
+    echo '<br><br>';
+    echo 'Para interpletar:';
+    echo 'Me chamo', $nome;
+    echo '<br>';
+    echo "<h3>Aspas Dupla:</h3>";
+    echo "Me chamo $nome";
+    echo "<h2>Obs: Aspas simples não \"interpletam\" valores de uma variável, já as aspas duplas intepletam!</h2>";
+    ?>
   </div>
 
 </body>
